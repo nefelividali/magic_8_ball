@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 12 20:44:37 2023
-
-@author: vidal
-"""
-
 import random
 
 name = "Evil Queen"
@@ -12,7 +5,6 @@ question = "Am I the fairest of them all?"
 answer = ""
 
 random_number = random.randint(1,11)
-
 
 if question == "":
   print("Please ask a question")
@@ -45,9 +37,3 @@ else:
     else:
       answer = "Error"
     print("Magic 8-Ball's answer: " + answer)  
-      
-
-
-
-
-
